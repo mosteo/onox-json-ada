@@ -6,14 +6,14 @@
 [![IRC](https://img.shields.io/badge/IRC-%23ada%20on%20libera.chat-orange.svg)](https://libera.chat)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/ada-lang/Lobby)
 
+Fork from Onox's upstream.
+
 # json-ada
 
 An Ada 2012 library for parsing JSON ([RFC 7159][url-rfc]). It supports
 Ada 2012's iterator and indexing syntax. The RFC does not support
 comments, thus this library does not support it either. If your JSON data
 contains comments, you should minify the data so that comments are removed.
-
-Escaped Unicode (`\u`) in strings is not supported yet.
 
 ## Usage
 
